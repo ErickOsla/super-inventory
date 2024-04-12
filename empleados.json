@@ -1,0 +1,37 @@
+[
+    {
+        "nombre": "Jose",
+        "codigoEmpleado": 1001,
+        "pass": "Password1@"
+    },
+    {
+        "nombre": "Monica",
+        "codigoEmpleado": 1002,
+        "pass": "Password2@"
+    },
+    {
+        "nombre": "Carlos",
+        "codigoEmpleado": 1003,
+        "pass": "Password3@"
+    },
+    {
+        "nombre": "Laura",
+        "codigoEmpleado": 1004,
+        "password": "Password4@"
+    },
+    {
+        "nombre": "Pedro",
+        "codigoEmpleado": 1005,
+        "password": "Password5@"
+    },
+    {
+        "nombre": "Erick",
+        "codigoEmpleado": 1006,
+        "password": "Password6@"
+    },
+    {
+        "nombre": "Erick",
+        "codigoEmpleado": 1007,
+        "password": "Password7@"
+    }
+]

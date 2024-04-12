@@ -1,0 +1,24 @@
+{
+  "name": "supermercado_inventario",
+  "version": "1.0.0",
+  "description": "gestion de inventario de un supermercado",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "github",
+    "url": "git+https://github.com/ErickOsla/inventario-supermercado.git"
+  },
+  "author": "erick",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ErickOsla/inventario-supermercado/issues"
+  },
+  "homepage": "https://github.com/ErickOsla/inventario-supermercado#readme",
+  "devDependencies": {
+    "bcrypt": "^5.1.1",
+    "electron": "^29.2.0",
+    "mysql2": "^3.9.4"
+  }
+}

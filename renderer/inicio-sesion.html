@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Inicio Sesion</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+
+
+    </head>
+    <body>
+        <form id="form-login">
+            <label for="id-login">Codigo de Empleado</label>
+            <input type="tel" id="id-login" pattern="[0-9]{0,4}" title="Ingrese un numero 
+            de valido (4 digitos)" required/>
+
+            <input type="password" id="pass-login" placeholder="Password" 
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" 
+            title="La contraseña debe tener al menos 8 caracteres, una letra mayúscula, 
+            una letra minúscula, un número y un carácter especial" required>
+
+            <input type="submit" id="iniciar-sesion" value="Iniciar Sesion" 
+            title="Iniciar Sesion"/>
+
+            <button type="button" id="nuevoRegistro">Registrarme</button>
+
+        </form>
+        <script type="text/javascript" src="index.js"></script>
+
+    </body>
+</html>
